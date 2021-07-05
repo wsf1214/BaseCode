@@ -201,6 +201,7 @@ ball.style.background=randomColor();
 /*2*/function getRandomColor(){
 	return "#"+("00000"+((Math.random()*16777215+0.5)>>0).toString(16)).slice(-6);
 }
+// 1
 /*=================================13 提示信息缓慢消失=======================================*/
 /**
  * 使用示例：
